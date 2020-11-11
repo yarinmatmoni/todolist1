@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="jquery-3.5.1.min.js"></script>
+    <meta charset="utf-8" />
+    <title>To Do List</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="StyleSheet1.css">
+    <script src="Script1.js"></script>
+    <script src="localStorage.js"></script>
+</head>
+<body>
+    <p id="dateTime"></p>
+    <h1 id="title">My To Do List</h1>
+    <form>
+        <input type="text" id="input" placeholder="Enter your next task..." autocomplete="off" />
+        <button type="submit" id="addTaskButton"><i class="fas fa-plus-square"></i></button>
+    </form>
+    <div class="ToDo-continer">
+        <ul id="list">
+        </ul>
+    </div>
+    <i class="material-icons">cancel</i>
+</body>
+</html>

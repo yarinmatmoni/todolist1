@@ -1,0 +1,113 @@
+﻿* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(1deg,#9441b8,#14b4d5db);
+    color: white;
+    border: solid 8px;
+    border-style: double;
+    padding-bottom: 90px;
+    margin: 98px;
+    width: 630px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 30px;
+}
+
+#title {
+    color: white;
+    font-family: 'Concert One', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 51px;
+    text-decoration-line: underline;
+    text-decoration-color: #c8a0d9;
+}
+
+form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#input {
+    padding: 18px;
+    font-size: 15px;
+    border: none;
+    width: 330px;
+    outline: none;
+}
+
+#addTaskButton {
+    padding: 18px;
+    font-size: 15px;
+    border: none;
+    margin-left: -53px;
+    outline: none;
+    background-color: white;
+}
+
+#addTaskButton:hover {
+    background-image: linear-gradient(120deg,#9441b8,#14b4d5db);
+    color:white;
+    cursor:pointer;
+    transition:all 0.3s ease;
+}
+
+#list {
+    list-style: none;
+}
+
+#list li {
+    padding: 10px;
+    border: solid 1px;
+    width: 330px;
+    margin-left: 142px;
+    margin-top: 5px;
+    text-transform: capitalize;
+    font-family: 'Concert One', cursive;
+}
+
+#list li:hover {
+     opacity: 0.6;
+     border: solid 3px;
+     cursor:pointer;
+     transition:all 0.1s ease;
+}
+
+.fa {
+    padding: 3px;
+    float: right;
+}
+
+.done {
+    text-decoration-line: line-through;
+    text-decoration-color: #c8a0d9;
+    text-decoration-style: double;
+}
+
+.material-icons {
+    position: absolute;
+    font-size: 45px;
+    margin-top: 44px;
+    margin-left: 569px;
+    outline: none;
+}
+
+.material-icons:hover {
+    cursor:pointer;
+    opacity: 0.8;
+}
+
+#dateTime {
+    margin-left: 245px;
+    margin-top: 30px;
+    font-size: 23px;
+    font-family: 'Concert One', cursive;
+}
